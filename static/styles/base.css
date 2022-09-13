@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body a, a:hover, a:focus, a:active{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  display: flex;
+  overflow: hidden;
+  padding: 0px;
+  top:  0;
+  width:  100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.spacer{
+  margin-left: 60%;
+  margin-right: 22.5%;
+}
+
+/* Styling the main content */
+.main-body{
+  margin-left: 35%;
+  margin-top: 15%;
+}

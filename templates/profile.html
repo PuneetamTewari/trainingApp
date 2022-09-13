@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title"> Hi, {{ name }} </h1>
+<br/>
+<div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <a class="home" href="{{ url_for('getHabit') }}">Fetch all Counters</a>
+    </li>
+    <li class="list-group-item">
+      <a class="home" href="{{ url_for('createHabit') }}">Add new Counter</a>
+    </li>
+    <li class="list-group-item">
+      <a class="home" href="{{ url_for('updateHabit') }}">Update Counter</a>
+    </li>
+    <li class="list-group-item">
+      <a class="home" href="{{ url_for('deleteHabit') }}">Delete Counter</a>
+    </li>
+  </ul>
+</div>
+{% endblock %}

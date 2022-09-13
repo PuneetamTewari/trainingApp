@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+<h1>All active counters</h1>
+<br/>
+<div>
+  {{ habitList | safe }}
+ </div>
+</div>
+{% endblock %}
